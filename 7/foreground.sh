@@ -1,1 +1,1 @@
-sleep 1; launch.sh
+FILE=/opt/katacoda-completed; while ! test -f ${FILE}; do clear; sleep 0.1; done; bash ${FILE}
